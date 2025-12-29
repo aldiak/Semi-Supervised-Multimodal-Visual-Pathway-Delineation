@@ -46,24 +46,30 @@ Supported datasets: HCP, MDM, MMD (configurable via paths).
 
 ## Data Organization
 ### Training Data
+```tree
 /path/train_data/
 ├── x_t1_data/      # T1 slices (.nii.gz)
 ├── x_fa_data/      # FA slices (.nii.gz)
 └── y_data/         # Binary label slices (.nii.gz)
+```
 
 ### Test Data (Slice-based for inference)
+```tree
 /path/test_data/
 └── test_<subject_id>/
     ├── x_t1_data/
     ├── x_fa_data/
     └── y_data/
+```
 
 ### Test Data (Full volumes for evaluation)
+```tree
 /path/test_imgs/   # or config_2d.test_imgs_path
 └── <subject_id>/
     ├── <subject_id>_ON-T1.nii.gz
     ├── <subject_id>_ON-mask.nii.gz
     └── <subject_id>_ON-label.nii.gz
+```
 
 ## Usage
 
