@@ -13,6 +13,7 @@ Key features:
 Supported datasets: HCP, MDM, MMD (configurable via paths).
 
 ## Repository Structure
+```tree
 .
 ├── ours3_all.py                  # Training script
 ├── evaluate.py                   # Inference + evaluation script
@@ -25,7 +26,7 @@ Supported datasets: HCP, MDM, MMD (configurable via paths).
 ├── seg_metrics/                  # External metric library (seg_metrics)
 ├── run_on_segmentation.sh        # Recommended bash script for easy training/evaluation
 └── README.md                     # This file
-
+```
 
 ## Requirements
 
