@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository implements a semi-supervised 2D slice-based segmentation framework for optic nerve (ON) segmentation using multi-modal MRI data (T1-weighted and Fractional Anisotropy maps). The core method is based on a **Decompose** architecture with decomposition regularization and a Mean Teacher framework for semi-supervised learning.
+This repository implements a semi-supervised segmentation framework for visual pathway structures (cranial nerve II) segmentation using multi-modal MRI data (T1-weighted and Fractional Anisotropy maps). The core method is based on a **Decompose** architecture with decomposition regularization and a reliable Ensemble Mean Teacher framework for semi-supervised learning.
 
 Key features:
 - Semi-supervised training with limited labeled data
